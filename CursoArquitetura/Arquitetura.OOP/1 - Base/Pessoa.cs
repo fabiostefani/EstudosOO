@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Stefani.CursoArquitetura.OO.Base
+namespace Arquitetura.OOP
 {
     public class Pessoa
     {
@@ -11,11 +11,9 @@ namespace Stefani.CursoArquitetura.OO.Base
         {
             var dataAtual = DateTime.Now;
             var idade = dataAtual.Year - DataNascimento.Year;
-
             if (dataAtual < DataNascimento.AddYears(idade)) idade--;
 
             return idade;
-            
         }
     }
 }

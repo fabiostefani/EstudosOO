@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A1233D71-B69D-4086-B87C-41B939E69E6B}</ProjectGuid>
+    <ProjectGuid>{C2E6F0C2-1F93-4176-A3F4-04DE624205F7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Stefani.EstudoDslInterna</RootNamespace>
-    <AssemblyName>Stefani.EstudoDslInterna</AssemblyName>
+    <RootNamespace>Arquitetura.OOP</RootNamespace>
+    <AssemblyName>Arquitetura.OOP</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,13 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cliente.cs" />
-    <Compile Include="DataUtil.cs" />
-    <Compile Include="GerenciadorLocador.cs" />
-    <Compile Include="Locacao.cs" />
+    <Compile Include="1 - Base\Pessoa.cs" />
+    <Compile Include="2 - Heranca\Funcionario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Video.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
