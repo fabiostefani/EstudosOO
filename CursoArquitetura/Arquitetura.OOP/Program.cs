@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Arquitetura.OOPo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,10 +7,15 @@ using System.Threading.Tasks;
 
 namespace Arquitetura.OOP
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            var ventilador = new Ventilador(@"Arno", 220);
+            ventilador.Ligar();
+            ventilador.Desligar();
+
+            Console.ReadKey();
         }
     }
 }
