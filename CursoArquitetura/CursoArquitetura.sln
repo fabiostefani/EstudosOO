@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26403.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arquitetura.OOP", "Arquitetura.OOP\Arquitetura.OOP.csproj", "{C2E6F0C2-1F93-4176-A3F4-04DE624205F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrientacaoObjetos", "OrientacaoObjetos", "{FF95BD8C-A16F-4C58-BF22-9F7252395F4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2E6F0C2-1F93-4176-A3F4-04DE624205F7} = {FF95BD8C-A16F-4C58-BF22-9F7252395F4C}
 	EndGlobalSection
 EndGlobal

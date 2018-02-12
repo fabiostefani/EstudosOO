@@ -2,11 +2,11 @@
 {
     public class AutomacaoCafe
     {
-        public void ServirCafe()
+        public static void ServirCafe()
         {
             var espresso = new CafeteiraEspressa();
             espresso.Ligar();
-            espresso.FazerCafe();
+            CafeteiraEspressa.FazerCafe();
             espresso.Desligar();
         }
     }

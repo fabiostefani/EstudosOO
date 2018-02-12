@@ -6,3 +6,10 @@
 - Polimorfismo: onde se expressa o objeto do mundo real através da abstração.
 Quando tivermos um cenário aonde temos um construtor sem parâmetros e outro com parâmetros, deve ser verificado pois pode ocasionar problemas.
 O conceito do polimorfismo é o reaproveitamento dos comportamentos.
+- Encapsulamento, você está escondendo detalhes de engenharia de como funciona o processo internamente, ela precisa somente implementar ele. Não deve saber as regras
+- Herança e Composição: prefira composição a herança. Composição é quando você possui um maior acoplamento. Você não cria uma dependencia direta com a super classe.
+Na herança uma classe filha é uma classe pai, enquanto na composição a classe possui outras. Exemplo: Pedido possui itens.
+- Interface vs Implementação: programe para uma interface e não para um implementação. Implementação gera acoplamento.
+- Na OO devemos buscar o baixo acoplamento e uma alta coesão entre os objetos.
+	Acoplamento: quando você muda um objeto, você acaba mudando o outro por consequencia
+	Coesão: objetos executando uma única responsabilidade livres de dependencia com outros objetos.
