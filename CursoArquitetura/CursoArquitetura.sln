@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DslInterna", "DslInterna", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DslInterna", "DslInterna\DslInterna.csproj", "{6C7361D0-B937-4B49-B344-D6DBCD8E8B9D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExemploRefatoracao", "ExemploRefatoracao", "{087B3BCF-BB28-4256-AED0-B471394375E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refatoracao", "Refatoracao\Refatoracao.csproj", "{C50E1FEE-2B75-4F0A-9C48-192BD4817DDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{6C7361D0-B937-4B49-B344-D6DBCD8E8B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C7361D0-B937-4B49-B344-D6DBCD8E8B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C7361D0-B937-4B49-B344-D6DBCD8E8B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C50E1FEE-2B75-4F0A-9C48-192BD4817DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50E1FEE-2B75-4F0A-9C48-192BD4817DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50E1FEE-2B75-4F0A-9C48-192BD4817DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50E1FEE-2B75-4F0A-9C48-192BD4817DDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C2E6F0C2-1F93-4176-A3F4-04DE624205F7} = {FF95BD8C-A16F-4C58-BF22-9F7252395F4C}
 		{6C7361D0-B937-4B49-B344-D6DBCD8E8B9D} = {5C79DE9B-605C-4A34-83AD-D0FF2F136227}
+		{C50E1FEE-2B75-4F0A-9C48-192BD4817DDE} = {087B3BCF-BB28-4256-AED0-B471394375E6}
 	EndGlobalSection
 EndGlobal

@@ -1,12 +1,11 @@
 ﻿using System;
 
-namespace Arquitetura.OOP
+namespace Refatoracao
 {
     public class Program
     {
         public static void Main()
         {
-
             Console.ReadKey();
         }
     }
