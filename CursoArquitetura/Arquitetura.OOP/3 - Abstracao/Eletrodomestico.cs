@@ -16,5 +16,9 @@
         public abstract void Ligar();
 
         public abstract void Desligar();
+
+        public virtual void Testar() { 
+            //implementação de testes de equiptos
+        }
     }
 }

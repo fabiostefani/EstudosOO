@@ -1,7 +1,7 @@
 ﻿Orientação a objetos
 
 - Um objeto deve ter propriedades e métodos. Se não tiver métodos, é considerado um modelo anêmico.
-- Herança deve ser muito bem analisado o contexto. Deve ser validado através do pros princípios SOLID.]
+- Herança deve ser muito bem analisado o contexto. Deve ser validado através do pros princípios SOLID. Sempre deve ser verificado se È UM/UMA. Tipo o Funcionário É UMA Pessoa?
 - Abstração não é o fato de criar classes abstratas, mas sim de trazer o mundo real para dentro da programação.
 - Polimorfismo: onde se expressa o objeto do mundo real através da abstração.
 Quando tivermos um cenário aonde temos um construtor sem parâmetros e outro com parâmetros, deve ser verificado pois pode ocasionar problemas.

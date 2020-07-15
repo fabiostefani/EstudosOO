@@ -42,7 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1 - Base\Pessoa.cs" />
+    <Compile Include="0 - Classe x Objeto\Casa.cs" />
+    <Compile Include="1 - Estado x Comportamento\Pessoa.cs" />
     <Compile Include="2 - Heranca\Funcionario.cs" />
     <Compile Include="3 - Abstracao\Eletrodomestico.cs" />
     <Compile Include="4 - Polimorfismo\CafeteiraEspressa.cs" />

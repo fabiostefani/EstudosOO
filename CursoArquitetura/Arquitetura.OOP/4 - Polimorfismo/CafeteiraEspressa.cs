@@ -39,5 +39,10 @@ namespace Arquitetura.OOP
         {
 
         }
+
+        public override void Testar()
+        {
+            //testes da cafeteira
+        }
     }
 }

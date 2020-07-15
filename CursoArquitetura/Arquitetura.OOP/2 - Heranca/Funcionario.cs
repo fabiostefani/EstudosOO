@@ -19,6 +19,8 @@ namespace Arquitetura.OOP
                 DataAdmissao = DateTime.Now,
                 Registro = "0123456"
             };
+
+            funcionario.CalcularIdade();
         }
     }
 }
