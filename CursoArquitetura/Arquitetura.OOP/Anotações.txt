@@ -13,3 +13,11 @@ Na herança uma classe filha é uma classe pai, enquanto na composição a class
 - Na OO devemos buscar o baixo acoplamento e uma alta coesão entre os objetos.
 	Acoplamento: quando você muda um objeto, você acaba mudando o outro por consequencia
 	Coesão: objetos executando uma única responsabilidade livres de dependencia com outros objetos.
+
+Modificadores de Acesso
+PUBLIC: acesso publico, sem restrição
+PROTECTED: somente a classe ou quem herda
+INTERNAL: somente dentro do mesmo assembly.
+PROTECTED INTERNAL: acesso somente dentro do mesmo assembly ou através de herança
+PRIVATE: limitado, somente através da propria classe
+PRIVATE PROTECTED: somente para herança ou que estao dentro do mesmo assembly.

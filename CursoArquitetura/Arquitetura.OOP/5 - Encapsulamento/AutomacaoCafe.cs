@@ -6,7 +6,7 @@
         {
             var espresso = new CafeteiraEspressa();
             espresso.Ligar();
-            CafeteiraEspressa.FazerCafe();
+            espresso.FazerCafe();
             espresso.Desligar();
         }
     }

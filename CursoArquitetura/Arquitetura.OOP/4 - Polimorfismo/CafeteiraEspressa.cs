@@ -20,7 +20,7 @@ namespace Arquitetura.OOP
             //lógica do método Desligar
         }
 
-        public static void FazerCafe()
+        public void FazerCafe()
         {
             AquecerAgua();
             MoerGraos();
