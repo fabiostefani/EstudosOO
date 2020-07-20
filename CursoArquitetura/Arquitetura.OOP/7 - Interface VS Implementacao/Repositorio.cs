@@ -9,4 +9,12 @@ namespace Arquitetura.OOP
             //adicionar
         }
     }
+
+    public class RepositorioFake : IRepositorio
+    {
+        public void Adicionar()
+        {
+            //adicionar
+        }
+    }
 }

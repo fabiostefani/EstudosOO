@@ -48,6 +48,8 @@
     <Compile Include="3 - Abstracao\Eletrodomestico.cs" />
     <Compile Include="4 - Polimorfismo\CafeteiraEspressa.cs" />
     <Compile Include="5 - Encapsulamento\AutomacaoCafe.cs" />
+    <Compile Include="6 - Heranca VS Composicao\CasoComplexo.cs" />
+    <Compile Include="6 - Heranca VS Composicao\Casos.cs" />
     <Compile Include="7 - Interface VS Implementacao\InterfaceVsImplementacao.cs" />
     <Compile Include="7 - Interface VS Implementacao\IRepositorio.cs" />
     <Compile Include="7 - Interface VS Implementacao\Repositorio.cs" />
@@ -60,8 +62,6 @@
   <ItemGroup>
     <Content Include="Anotações.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="6 - Heranca VS Composicao\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

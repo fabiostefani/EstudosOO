@@ -4,7 +4,7 @@ namespace Arquitetura.OOP
 {
     public class Implementacao
     {
-        public static void Processo()
+        public void Processo()
         {
             //implementação
             var repositorio = new Repositorio();
@@ -23,6 +23,21 @@ namespace Arquitetura.OOP
         public void Processo()
         {
             _repositorio.Adicionar();
+        }
+    }
+
+    public class TesteInterfaceImplementacao
+    {
+        public TesteInterfaceImplementacao()
+        {
+            var repoImp = new Implementacao();
+            repoImp.Processo();
+
+            var repAbs = new Abstracao(new Repositorio());
+            repAbs.Processo();
+
+            var repAbsFake = new Abstracao(new RepositorioFake());
+            repAbsFake.Processo();
         }
     }
 }
