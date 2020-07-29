@@ -60,6 +60,13 @@
     <Compile Include="2 - OCP\OCP.Solucao\DebitoContaPoupanca.cs" />
     <Compile Include="2 - OCP\OCP.Violacao\DebitoConta.cs" />
     <Compile Include="2 - OCP\OCP.Violacao\EnumTipoConta.cs" />
+    <Compile Include="3 - LSP\LSP.Solucao\CalculoArea.cs" />
+    <Compile Include="3 - LSP\LSP.Solucao\Paralelogramo.cs" />
+    <Compile Include="3 - LSP\LSP.Solucao\Quadrado.cs" />
+    <Compile Include="3 - LSP\LSP.Solucao\Retangulo.cs" />
+    <Compile Include="3 - LSP\LSP.Violacao\CalculoArea.cs" />
+    <Compile Include="3 - LSP\LSP.Violacao\Quadrado.cs" />
+    <Compile Include="3 - LSP\LSP.Violacao\Retangulo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

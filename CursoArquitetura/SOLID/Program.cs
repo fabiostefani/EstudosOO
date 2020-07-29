@@ -1,4 +1,6 @@
 ﻿using SOLID._2___OCP.OCP.SolucaoExtensionMethods;
+using SOLID._3___LSP.LSP.Solucao;
+//using SOLID._3___LSP.LSP.Violacao;
 using System;
 
 namespace SOLID
@@ -20,7 +22,7 @@ namespace SOLID
                     //CalculoArea.Calcular();
 
                     //Solução
-                    //CalculoArea.Calcular();
+                    CalculoArea.Calcular();
                     break;
                 default:
                     break;
