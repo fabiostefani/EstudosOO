@@ -67,6 +67,15 @@
     <Compile Include="3 - LSP\LSP.Violacao\CalculoArea.cs" />
     <Compile Include="3 - LSP\LSP.Violacao\Quadrado.cs" />
     <Compile Include="3 - LSP\LSP.Violacao\Retangulo.cs" />
+    <Compile Include="4 - ISP\ISP.Solução\IConsulta.cs" />
+    <Compile Include="4 - ISP\ISP.Solução\ICadastro.cs" />
+    <Compile Include="4 - ISP\ISP.Solução\ICadastroProduto.cs" />
+    <Compile Include="4 - ISP\ISP.Solução\CadastroProduto.cs" />
+    <Compile Include="4 - ISP\ISP.Solução\ICadastroCliente.cs" />
+    <Compile Include="4 - ISP\ISP.Solução\CadastroCliente.cs" />
+    <Compile Include="4 - ISP\ISP.Violacao\CadastroCliente.cs" />
+    <Compile Include="4 - ISP\ISP.Violacao\CadastroProduto.cs" />
+    <Compile Include="4 - ISP\ISP.Violacao\ICadastro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
