@@ -76,6 +76,19 @@
     <Compile Include="4 - ISP\ISP.Violacao\CadastroCliente.cs" />
     <Compile Include="4 - ISP\ISP.Violacao\CadastroProduto.cs" />
     <Compile Include="4 - ISP\ISP.Violacao\ICadastro.cs" />
+    <Compile Include="5 - DIP\DIP.Solução\Cliente.cs" />
+    <Compile Include="5 - DIP\DIP.Solução\ClienteRepository.cs" />
+    <Compile Include="5 - DIP\DIP.Solução\ClienteService.cs" />
+    <Compile Include="5 - DIP\DIP.Solução\CPFService.cs" />
+    <Compile Include="5 - DIP\DIP.Solução\EmailService.cs" />
+    <Compile Include="5 - DIP\DIP.Solução\Interfaces\IClienteRepository.cs" />
+    <Compile Include="5 - DIP\DIP.Solução\Interfaces\IClienteService.cs" />
+    <Compile Include="5 - DIP\DIP.Solução\Interfaces\IEmailService.cs" />
+    <Compile Include="5 - DIP\DIP.Violacao\Cliente.cs" />
+    <Compile Include="5 - DIP\DIP.Violacao\ClienteRepository.cs" />
+    <Compile Include="5 - DIP\DIP.Violacao\ClienteService.cs" />
+    <Compile Include="5 - DIP\DIP.Violacao\CPFService.cs" />
+    <Compile Include="5 - DIP\DIP.Violacao\EmailService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
