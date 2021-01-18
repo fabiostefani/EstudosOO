@@ -1,9 +1,11 @@
+using DemoDi.Casos.LifeCycle;
 using DemoDi.Casos.VidaReal;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System;
 
 namespace DemoDi
 {
@@ -19,8 +21,19 @@ namespace DemoDi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            #region Vida Real
             services.AddScoped<IClienteService, ClienteService>();
             services.AddScoped<IClienteRepositorio, ClienteRepositorio>();
+            #endregion
+
+            #region LifeCycle
+            services.AddTransient<IOperacaoTransient, Operacao>();
+            services.AddScoped<IOperacaoScoped, Operacao>();
+            services.AddSingleton<IOperacaoSingleton, Operacao>();
+            services.AddSingleton<IOperacaoSingletonInstance>(new Operacao(Guid.Empty));
+            services.AddTransient<OperacaoService>();
+            #endregion
+
             services.AddControllersWithViews();
         }
 
