@@ -1,3 +1,4 @@
+using DemoDi.Casos.Generics;
 using DemoDi.Casos.LifeCycle;
 using DemoDi.Casos.VidaReal;
 using Microsoft.AspNetCore.Builder;
@@ -27,11 +28,15 @@ namespace DemoDi
             #endregion
 
             #region LifeCycle
-            services.AddTransient<IOperacaoTransient, Operacao>();
-            services.AddScoped<IOperacaoScoped, Operacao>();
-            services.AddSingleton<IOperacaoSingleton, Operacao>();
+            services.AddTransient<IOperacaoTransient, Operacao>(); //vários objetos  sendo criados na instância
+            services.AddScoped<IOperacaoScoped, Operacao>(); //unico objeto por request
+            services.AddSingleton<IOperacaoSingleton, Operacao>(); //unico objeto para toda a aplicação/instância
             services.AddSingleton<IOperacaoSingletonInstance>(new Operacao(Guid.Empty));
             services.AddTransient<OperacaoService>();
+            #endregion
+
+            #region Generics
+            services.AddScoped(typeof(IRepositorioGenerico<>), typeof(RepositorioGenerico<>));
             #endregion
 
             services.AddControllersWithViews();
