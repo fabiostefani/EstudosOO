@@ -1,5 +1,6 @@
 using DemoDi.Casos.Generics;
 using DemoDi.Casos.LifeCycle;
+using DemoDi.Casos.MultiplasClasses;
 using DemoDi.Casos.VidaReal;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -37,6 +38,26 @@ namespace DemoDi
 
             #region Generics
             services.AddScoped(typeof(IRepositorioGenerico<>), typeof(RepositorioGenerico<>));
+            #endregion
+
+            #region MultiplasClasses
+            services.AddTransient<ServicoA>();
+            services.AddTransient<ServicoB>();
+            services.AddTransient<ServicoC>();
+            services.AddTransient<Func<string, IServico>>(serviceProvider => key =>
+            {
+                switch (key)
+                {
+                    case "A":
+                        return serviceProvider.GetService<ServicoA>();
+                    case "B":
+                        return serviceProvider.GetService<ServicoB>();
+                    case "C":
+                        return serviceProvider.GetService<ServicoC>();
+                    default:
+                        return null;
+                }
+            });
             #endregion
 
             services.AddControllersWithViews();
