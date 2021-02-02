@@ -1,4 +1,6 @@
 using DesignPatterns.Structural.Adapter;
+using DesignPatterns.Structural.Facade.CrossCutting;
+using DesignPatterns.Structural.Facade.Domain;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -21,6 +23,14 @@ namespace DesignPatterns
         {
             services.AddScoped<ILogger, Logger>();
             services.AddScoped<ILogNetMaster, LogNetMasterService>();
+            services.AddScoped<IConfigurationManager, ConfigurationManager>();
+            services.AddScoped<IPayPalGateway, PayPalGateway>();
+            services.AddScoped<IPagamentoCartaoCreditoFacade, PagamentoCartaoCreditoFacade>();
+            services.AddScoped<IPagamento, PagamentoCartaoCreditoService>();
+
+
+
+
 
             services.AddControllersWithViews();
         }
