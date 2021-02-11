@@ -28,6 +28,14 @@ namespace DesignPatterns
             services.AddScoped<IPagamentoCartaoCreditoFacade, PagamentoCartaoCreditoFacade>();
             services.AddScoped<IPagamento, PagamentoCartaoCreditoService>();
 
+            services.AddScoped<Behavioral.Strategy.CrossCutting.IPayPalGateway, Behavioral.Strategy.CrossCutting.PayPalGateway>();
+            services.AddScoped<Behavioral.Strategy.CrossCutting.IConfigurationManager, Behavioral.Strategy.CrossCutting.ConfigurationManager>();
+
+            services.AddScoped<Behavioral.Strategy.IPagamentoCartaoCreditoFacade, Behavioral.Strategy.PagamentoCartaoCreditoFacade>();
+            services.AddScoped<Behavioral.Strategy.IPagamentoBoletoFacade, Behavioral.Strategy.PagamentoBoletoFacade>();
+            services.AddScoped<Behavioral.Strategy.IPagamentoTransferenciaFacade, Behavioral.Strategy.PagamentoTransferenciaFacade>();
+            services.AddScoped<Behavioral.Strategy.IPagamentoFactory, Behavioral.Strategy.PagamentoFactory>();
+            services.AddScoped<Behavioral.Strategy.PagamentoBoletoService>();
 
 
 

@@ -4,10 +4,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DesignPatterns.Controllers
 {
-    public class BehavioralController : Controller
+    public class CommandController : Controller
     {
 
-        public BehavioralController()
+        public CommandController()
         {
 
         }
